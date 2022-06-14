@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    margin-left: 3%;
+}
+
+.navbar{
+    background-color: transparent !important;
+}
+
+a{
+    text-decoration: none;
+    color: black !important;
+}
+
+li{
+    padding: 0 10px;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color:rgb(128,128,128,0.1) ;
+    
+    border-radius: 15px;
+
+}
+
+.links{
+    margin-right: 3%;
+
+}
+
+.banner{
+    background-image: url(../img/M3-Homepage-Desktop-LHD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+.container h1{
+font-weight: 500;
+
+
+}
+
+.container span{
+    text-decoration: underline;
+}
+
+.boton{
+    
+
+  
+  border-radius: 10px;
+  box-shadow: 0 0 0 0 transparent;
+  color: #333;
+   font-weight: 600;
+   border: none;
+ padding: 5px 64px;
+  transition: box-shadow .5s cubic-bezier(.5, 0, 0, .75);
+
+}
+
+.boton1{
+    background:#3A3C41 ;
+    color: white;
+    width: 270px !important;
+    margin-right: 1%;
+
+    
+}
+
+.boton2{
+    background: #f4f4f4;
+    margin-left: 1%;
+    
+
+}
+
+.cbotones{
+    margin-top: 31%;
+  
+}
+
+.arrow
+{
+  position: relative;
+  bottom: -2rem;
+  left: 50%;
+  margin-left:-20px;
+  width: 40px;
+  height: 40px;
+
+  /**
+   * Dark Arrow Down
+   */
+  background-image: url(../img/chevron-down-solid.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
