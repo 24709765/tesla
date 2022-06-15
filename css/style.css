@@ -30,17 +30,22 @@ li:hover{
 }
 
 .links{
-    margin-right: 3%;
+    margin-right: 2%;
 
 }
 
 .banner{
-    background-image: url(../img/M3-Homepage-Desktop-LHD.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
    
+}
+
+
+.models{
+  background-image: url(../img/M3-Homepage-Desktop-LHD.jpg);
 }
 
 .container h1{
@@ -84,7 +89,7 @@ font-weight: 500;
 }
 
 .cbotones{
-    margin-top: 31%;
+    margin-top: 29%;
   
 }
 
@@ -94,8 +99,8 @@ font-weight: 500;
   bottom: -2rem;
   left: 50%;
   margin-left:-20px;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
 
   /**
    * Dark Arrow Down
@@ -119,4 +124,37 @@ font-weight: 500;
   60% {
     transform: translateY(-15px);
   }
+}
+
+/* estilos del modelo 3 */
+.model3{
+  background-image: url(../img/ultimobaner.jpeg);
+ 
+ 
+}
+
+.botonModel3{
+  background:transparent;
+  margin-left: 1%;
+  border: white solid 2px;
+  color: white;
+  border-radius: 50px;
+  width: 230px;
+  height: 40px;
+  
+
+}
+
+.botonModel3:hover{
+  color: black;
+  background-color: white;
+}
+
+.models{
+  background: transparent;
+}
+.models:hover{
+    cursor: pointer;
+    background-color:#7a7e85 ;
+    border-radius: 15px;
 }

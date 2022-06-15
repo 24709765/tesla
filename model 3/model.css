@@ -39,8 +39,9 @@ li:hover{
     background-image: url(../img/ultimobaner.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+   
     width: 100vw;
-    height: 100vh;
+    height:100vh;
    
 }
 
